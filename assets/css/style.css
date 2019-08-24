@@ -142,7 +142,6 @@ textarea, input {
 
 /* Media Query */
 @media screen and (max-width: 980px) {
-
   .container {
     width: 100%
   }
@@ -154,7 +153,6 @@ textarea, input {
 }
 
 @media screen and (max-width: 768px) {
-
   .container {
     width: 100%
   }
@@ -167,10 +165,9 @@ textarea, input {
 
 /* Static header */
 @media screen and (max-width: 640px) {
-
   .container {
     width: 100%;
-    padding: 20px;
+    padding: 5px;
   }
   header {
     position: static;
