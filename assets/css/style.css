@@ -1,8 +1,3 @@
-HTML
-
-/* * {
-  text-align: center;
-} */
 
 body {
   background-color: #33467c;
@@ -80,12 +75,10 @@ a:hover {
 }
 
 #full {
-  clear: both;
-  overflow: auto;
   background-color: #ffffff;
   margin: 70px;
   padding: 50px;
-  height: 960px;
+  width: 960px;
   border-radius: 20px;
   border: #dddddd;
   border-width: 2px;
@@ -158,7 +151,7 @@ img {
   #name,
   #nav,
   #full {
-    width: 100%;
+    width: 50%;
   }
 }
 
