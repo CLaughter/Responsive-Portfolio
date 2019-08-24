@@ -6,7 +6,6 @@ HTML
 
 body {
   background-color: #33467c;
-  background-image: url("assets/images/01.png");
 }
 
 header {
@@ -37,6 +36,7 @@ a:hover {
   padding: 25px;
   display: inline;
   margin-right: 2%;
+  padding-bottom: 0;
 }
 
 #name {
@@ -75,8 +75,7 @@ a:hover {
 }
 
 .portfolio-img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
   margin: 10px;
 }
 
@@ -104,22 +103,14 @@ a:hover {
 .footer {
   background-color: #666666;
   color: white;
-  font-size: large;
+  height: 20px;
+  font-size: small;
   text-align: center;
-  padding: 30px;
-  height: 25px;
+  padding: 0;
+  margin: 0;
   position: fixed;
   width: 100%;
   bottom: 0;
- }
-
- .container {
-  width: 960px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: white;
-  font-size: 18px;
-  text-align: left;
  }
 
  #form {
@@ -137,54 +128,47 @@ textarea, input {
   background-color: green;
   border-radius: 10px;
   font-size: large;
-
 }
+
+img {
+  max-width: 100%;
+}
+
 
 /* Media Query */
 @media screen and (max-width: 980px) {
-  .container {
-    width: 100%
-  }
-  name,
-  nav,
-  full {
-    width: 100%;
+  #name,
+  #nav,
+  #full {
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    width: 100%
-  }
-  name,
-  nav,
-  full {
-    width: 100%;
+  #name,
+  #nav,
+  #full {
+    width: 50%;
   }
 }
 
+
 /* Static header */
-@media screen and (max-width: 640px) {
-  .container {
+@media screen and (max-width: 50px) {
+  #name,
+  #nav,
+  #full {
     width: 100%;
-    /* padding: 5px; */
   }
+}
 
   header {
     position: static;
   }
 
-  name,
-  nav,
-  full {
-    width: 100%;
+  footer {
+    position: static;
   }
-  
-}
-
-footer {
-  position: static;
-}
 
 
 
