@@ -112,7 +112,7 @@ a:hover {
 }
 
 textarea, input {
-  width: 900px;
+  width: 100%;
 }
 
 #submit-btn {
